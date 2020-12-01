@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<div style="border: 2px solid #000;">
+	<h1> this is new body </h1>
+	<p> oh boy </p>
+
+	<p>{{some_string}}</p> 
+	<p>{{some_number}}</p>
+
+	{% for account in accounts %}
+		<p>{{account}}</p> <!--to iterate pictures or data in the future -->
+	{% endfor %}
+
+
+
+	
+</div>
+
+{% endblock content %}
